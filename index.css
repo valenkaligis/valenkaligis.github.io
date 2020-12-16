@@ -59,16 +59,11 @@ li a:hover {
 li.active a{
   color : #08b0d1;
 }
-.foto img{
-  width: 100%;
-  height: 500px;
-  display: block;
-}
 .foto h1{
   position: relative;
   font-size: 60px;
   left: 100px;
-  top: -450px;
+  top: -470px;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
@@ -157,7 +152,7 @@ li.active a{
   position: relative;
   border: 1px solid black;
   background-color: #050040;
-  height: 850px;
+  height: 550px;
 }
 .berita .beritaa{
   text-align: center;
@@ -172,69 +167,16 @@ li.active a{
 }
 .beritaaa{
   border:1px solid  #010036;
-  height: 500px;
-}
-.beritaaa .evosss1 img{
-  top: 83px;
-  left: 15px;
-  border: 1px solid  black;
-  position: relative;
-  width: 400px;
   height: 400px;
 }
-.evosss1 p{
-  width: 300px;
-  color: white;
-  position: relative;
-  top: 80px;
-  left: 20px;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-}
-.beritaaa .evosss2 img{
-  border: 1px solid black;
-  position: relative;
-  left: 445px;
-  bottom: 495px;
-  width: 450px;
-  height: 400px;
-}
-.evosss2 p{
-  width: 300px;
-  color: white;
-  position: relative;
-  left: 450px;
-  bottom: 500px;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-}
-.beritaaa .evosss3 img{
-  left: 930px;
-  bottom: 1070px;
-  border: 1px solid black;
-  position: relative;
-  width: 400px;
-  height: 400px;
-}
-.evosss3 p{
-  width: 300px;
-  color: white;
-  position: relative;
-  left: 950px;
-  bottom: 1070px;
-  cursor: pointer;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
-}
+
 .mr{
   position: relative;
   background: #08b0d1;
   text-align: center;
-  left: 500px;
-  bottom: 1000px;
-  width: 300px;
+  left: 600px;
+  bottom: -15px;
+  width: 200px;
   padding: 15px;
   border-radius: 5px;
   color: white;
@@ -260,21 +202,6 @@ li.active a{
 .latest{
   border: 1px solid white;
 }
-.latest1 img{
-  left: 70px;
-  position: relative;
-  padding: 10px;
-  width: 500px;
-  height: 500px;
-}
-.latest2 img{
-  position: relative;
-  padding: 10px;
-  width: 500px;
-  height: 500px;
-  bottom: 524px;
-  left: 700px;
-}
 .goods{
   border: 1px solid white;
 }
@@ -292,16 +219,11 @@ li.active a{
 .evosg{
   border: 1px solid white;
 }
-.evosbaju img{
-  width: 20%;
-  margin: 0 auto;
-  position: relative;
-}
 .buy{
   position: relative;
   background: #08b0d1;
   text-align: center;
-  bottom: 10px;
+  top: 10px;
   left: 500px;
   width: 300px;
   padding: 15px;
@@ -362,8 +284,8 @@ li.active a{
 }
 .evos{
 position: relative;
-top: -60px;
-margin-top:20px;
+top: -20px;
+margin-top:30px;
 color: white;
 font-family: 'Montserrat', sans-serif;
 font-size: 50px;

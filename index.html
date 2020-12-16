@@ -6,6 +6,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>index</title>
 </head>
 <header>
@@ -28,8 +32,24 @@
     </nav>
 </header>
 <body>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="evos1.png" alt="m1" width="1350" height="500">
+          </div>
+          <div class="carousel-item">
+            <img src="harith.jpg" alt="harith" width="1350" height="500">
+          </div>
+        </div>
+        
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
     <div class="foto">
-        <img src="evos1.png">
         <h1>EVOS ESPORTS</h1>
         <h2>Join Official Membership and be ready for another <br>
             release of EVOS Esports home watch tickets, which <br>
@@ -72,27 +92,40 @@
             <span class="evosn2"><strong>NEWS</strong></span>
         </div>
         <div class="beritaaa">
-            <div class="evosss1">
-                <img src="evosb1.png" alt="">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-                Voluptas blanditiis omnis, aliquam,<br>
-                saepe maxime atque molestias beatae necessitatibus <br> repudiandae
-                cupiditate ut recusandae cumque <br> minima ipsum dolor provident minus, neque quasi?</a></p>
-            </div>
-            <div class="evosss2">
-                <img src="evosb2.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-                    Voluptas blanditiis omnis, aliquam,<br>
-                    saepe maxime atque molestias beatae necessitatibus <br> repudiandae
-                    cupiditate ut recusandae cumque <br> minima ipsum dolor provident minus, neque quasi?</p>
-            </div>
-            <div class="evosss3">
-                <img src="evosb3.png" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>
-                    Voluptas blanditiis omnis, aliquam,<br>
-                    saepe maxime atque molestias beatae necessitatibus <br> repudiandae
-                    cupiditate ut recusandae cumque <br> minima ipsum dolor provident minus, neque quasi?</p>
-            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+               <div class="col-md-4">
+               <div class="card shadow" style="width:20rem">
+                <img class="card-img-top" src="evosb1.png" alt="Card image" style="width:100%">
+                <div class="card-body">
+                    <a href="#" class="btn btn-primary">Wannn</a><br><br>
+                    <h4 class="card-title">Evos  Wannn</h4>
+                  <p class="card-text">Some example text some example text. John Doe is an architect and engineer, Some example text some example text,Some example text some</p>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card shadow" style="width:20rem">
+                  <img class="card-img-top" src="evosb2.png" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary">Lihat Perjalanan</a><br><br>
+                    <h4 class="card-title">Perjalanan</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  </div>
+                </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card shadow" style="width:20rem">
+                  <img class="card-img-top" src="evosb3.png" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <a href="#" class="btn btn-primary">Lihat Kisah</a><br><br>
+                    <h4 class="card-title">MR13</h4>
+                    <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                  </div>
+                </div>
+          </div>
+          </div>
+          </div>
             <div class="mr">More News -> </div>
         </div>
     </div>
@@ -101,28 +134,70 @@
             <span class="evosl1"><strong>LATEST</strong></span>
             <span class="evosl2"><strong>MATCHES</strong></span>
         </div>
-        <div class="latest1">
-                <img src="latest1.png" alt="">
-        </div>
-            <div class="latest2">
-                <img src="latest2.png" alt="">
+        <div class="lastmatch">
+            <div class="row justify-content-center">
+           <div class="col-md-4">
+           <div class="card shadow" style="width:20rem">
+            <img class="card-img-top" src="latest1.png" alt="Card image" style="width:100%" height="400px">
+            <div class="card-body">
+           </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card shadow" style="width:20rem">
+              <img class="card-img-top" src="latest2.png" alt="Card image" style="width:100%" height="400px">
+              <div class="card-body">
+              </div>
             </div>
+      </div>
+      </div>
+      </div>
     </div>
     <div class="goods">
         <div class="evosg">
             <span class="evosg1"><strong>EVOS</strong></span>
             <span class="evosg2"><strong>GOODS</strong></span>
         </div>
-    <div class="evosbaju">
-        <img src="jaket.png" alt="">
-        <img src="hoodie2.png" alt="">
-        <img src="hoodie1.png" alt="">
-        <img src="baju.png" alt="">
+        <div class="hoodie">
+            <div class="row justify-content-left">
+           <div class="col-sm-3">
+           <div class="card shadow" style="width:20rem">
+            <img class="card-img-top" src="jaket.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+           </div>
+          </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card shadow" style="width:20rem">
+              <img class="card-img-top" src="hoodie1.png" alt="Card image" style="width:100%">
+              <div class="card-body">
+              </div>
+            </div>
+      </div>
+      <div class="col-sm-3">
+          <div class="card shadow" style="width:20rem">
+              <img class="card-img-top" src="hoodie2.png" alt="Card image" style="width:100%">
+              <div class="card-body">
+              </div>
+            </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="card shadow" style="width:20rem">
+            <img class="card-img-top" src="baju.png" alt="Card image" style="width:100%">
+            <div class="card-body">
+            </div>
+          </div>
     </div>
+      </div>
+      </div>
     <div class="buy">Buy Now -> </div>
 </div>
+<br>
         <div class="bagian-akhir">
             <img src="evosgravity2.jpg" alt="">
+            <br>
+            <br>
+            <br>
             <h1><strong>DISCOVER OFFICIAL MEMBERSHIP</strong></h1>
             <h2>Official membership include : EVOS special pack, fan service,priority tickect access, invitation-only events, discounts on merchandises & in-game items and many more</h2>
             <div class="akhir">Join Now</div>

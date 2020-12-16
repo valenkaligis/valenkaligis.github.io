@@ -69,34 +69,12 @@ body, html{
   position: relative;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
-  bottom: 200px;
+  bottom: 100px;
   left: 80px;
   color: white;
   font-size: 100px;
 } 
-.galeri{
-  max-width: 1200px;
-  margin: 0 auto;
-  background: white;
-  overflow: auto;
-}
-.partners{
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 390px;
-}
-.partners img{
-  width: 100%;
-  height: auto;
-}
-.atb{
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #111;
-}
-
-  .footer{
+ .footer{
     position: relative;
     bottom: 0px;
     width: 100%;

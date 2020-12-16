@@ -65,31 +65,10 @@ body, html{
     position: relative;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    bottom: 200px;
+    bottom: 120px;
     left: 80px;
     color: white;
     font-size: 100px;
-  }
-  .jadwal{
-    position: relative;
-    bottom: 200px;
-    border: 1px solid white;
-    max-width: 1200px;
-    height: 800px;
-  }
-  .latest1 img{
-    position: relative;
-    left: 45px;
-    top: 55px;
-    width: 500px;
-    height: 700px;
-  }
-  .latest2 img{
-    position: relative;
-    width: 500px;
-    height: 700px;
-    left: 650px;
-    bottom: 650px;
   }
   .footer{
     position: relative;
@@ -104,7 +83,7 @@ body, html{
   }
   .evos{
   position: relative;
-  top: -60px;
+  top: -10px;
   margin-top:20px;
   color: white;
   font-family: 'Montserrat', sans-serif;
